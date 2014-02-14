@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Leran Real Japanese</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+   <link href='http://fonts.googleapis.com/css?family=Quicksand:300' rel='stylesheet' type='text/css'>
+    <link href="css/custom.css" rel="stylesheet">
+    <style type="text/css"> 
+	body{
+		font-family: 'Quicksand', sans-serif;
+	}
+	</style>
+    
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  
+      <div id="header">
+        <ul class="list-inline">
+        <li><a href="#" class="active">Leran Real Japanese</a></li>
+        <li><a href="#">contact</a></li>
+        </ul>
+    </div>
+   
+   <div  id="main"> 
+    <div class="container">
+		<div class="row">
+            <div class="col-sm-6">
+                  <h1>Leran Real Japanese</h1>
+                    <h3>So you can view animation, the drama of Japan and without resorting to dubbing and subtitles</h3>
+                    <ul>
+                        <li>Exhaustive conversation used everyday, in the anime</li>
+                        <li>I challenge quiz conversation when you are done</li>
+                        <li>Share with friends to learn how the Japanese</li>
+                    </ul>
+                    <p>Latest information published in Facebook, in Twitter!</p>
+                    <form method="post" action="mail.php" role="form" onsubmit="return Validator.submit(this)">
+                    <p id="mes"></p>
+                        <div class="form-group col-md-9">
+                            <label class="sr-only" for="exampleInputEmail2">Email address</label>
+                            <input type="email"  name="email" class="form-control" id="email" placeholder="Enter email"  onblur="Validator.check(this, '!mail')">
+                        </div> 
+                        <div class="form-group col-md-3">
+	                        <button type="submit" class="btn btn-danger" formnovalidate disabled="disabled" id="mail_submit">Pre registration</button>
+                        </div>
+                    </form>
+                    <ul class="list-inline">
+                        <li><a href="#"><img src="./images/icon_facebook.png" alt="facebookicon" /></a></li>
+                        <li><a href="#"><img src="./images/icon_twitter.png" alt="facebookicon" /></a></li>
+                        <li><a href="#"><img src="./images/icon_google.png" alt="facebookicon" /></a></li>
+                    </ul>
+            </div>
+              
+            <div class="col-sm-6">
+                <img src="./images/main_iphone.png" alt="アプリイメージ画像" class="mainv" />
+            </div>
+    		</div>
+ 	</div>        
+   </div>
+
+
+        <div class="row" id="read_text">  
+            <div class="container">
+            <h2 class="copy">Conversation once within one minute! <br />Listening repeatedly to spare time, so you get used to the Japanese!</h2> 
+                <div class="col-md-4">
+                      <p><img src="./images/no_image.png" alt="noimage" class="img-rounded" /></p>
+                            <h3>Exhaustive conversation used everyday, in the anime</h3>
+                            <p>Avatar the alter ego will exchange with Japanese and various people. <br /> you'll hear the conversation of the avatar.</p>
+                </div>
+                <div class="col-md-4">
+                      <p><img src="./images/no_image.png" alt="noimage" class="img-rounded" /></p>
+                            <h3>I challenge quiz conversation when you are done</h3>
+                            <p>Since the quiz along the flow of the conversation, you will be able to understand nuances of fine Japanese.</p>
+                </div>
+                <div class="col-md-4">
+                      <p><img src="./images/no_image.png" alt="noimage" class="img-rounded" /></p>
+                            <h3>Share with friends to learn how the Japanese</h3>
+                            <p>You able to compete the progress of conversation with friends and log in with an account of Twittern and Facebook.</p>
+                </div>
+            </div>
+		</div>
+	
+	
+    <div id="footer"><div class="container">
+        <div class="col-md-6" id="footer_img">
+		  <p><img src="./images/footer_iphone.png" alt="アプリイメージ画像" /></p>
+		  </div>
+			<div clss="col-md-6" id="footer_nav">
+			<h2>So Let’s Lean Real Japanese!</h2>
+				<ul class="list-inline">
+					<li><a href="#"><img src="./images/icon_facebook.png" alt="facebookicon" /></a></li>
+					<li><a href="#"><img src="./images/icon_twitter.png" alt="facebookicon" /></a></li>
+					<li><a href="#"><img src="./images/icon_google.png" alt="facebookicon" /></a></li>
+				</ul>
+		  </div>
+    </div></div>
+  
+  <!--
+    <div id="header">
+        <ul class="list-inline">
+        <li><a href="#" class="active">Leran Real Japanese</a></li>
+        <li><a href="#">contact</a></li>
+        </ul>
+    </div>
+    <div class="container" id="main">
+		<div class="row">
+
+	    <div class="col-md-6">
+        <img src="./images/main_iphone.png" alt="アプリイメージ画像" class="mainv" />
+        </div>
+		  
+        <div class="col-md-6">
+			  <h1>Leran Real Japanese</h1>
+				<h3>字幕や吹き替えに頼らず日本のアニメ、ドラマを見よう</h3>
+				<ul>
+					<li>日常、アニメで使われる会話を網羅</li>
+					<li>会話が終わったらクイズに挑戦</li>
+					<li>日本語の習得具合を友人と共有</li>
+				</ul>
+				<p>最新情報はFacebook、Twitterで公開中！</p>
+        		<ul class="list-inline">
+					<li><a href="#"><img src="./images/icon_facebook.png" alt="facebookicon" /></a></li>
+					<li><a href="#"><img src="./images/icon_twitter.png" alt="facebookicon" /></a></li>
+					<li><a href="#"><img src="./images/icon_google.png" alt="facebookicon" /></a></li>
+				</ul>
+        </div>
+    		</div>
+ 	</div>        
+
+        <div class="row" id="read_text">  
+            <div class="container">
+            <h2 class="copy">１回の会話は１分以内！空いた時間に繰り返し聴いて、日本語に慣れよう！</h2> 
+                <div class="col-md-4">
+                      <p><img src="./images/no_image.png" alt="noimage" class="img-rounded" /></p>
+                            <h3>日常、アニメに使われる会話を網羅</h3>
+                            <p>分身となるアバターが様々な人と日本語で交流します。<br />あなたはアバターの会話を聞き取りましょう。</p>
+                </div>
+                <div class="col-md-4">
+                      <p><img src="./images/no_image.png" alt="noimage" class="img-rounded" /></p>
+                            <h3>会話が終わったらクイズに挑戦</h3>
+                            <p>会話の流れに沿ってクイズを出題するので、<br />日本語の細かいニュアンスまで理解できるようになります。</p>
+                </div>
+                <div class="col-md-4">
+                      <p><img src="./images/no_image.png" alt="noimage" class="img-rounded" /></p>
+                            <h3>会話の進み具合を友人と共有</h3>
+                            <p>FacebookやTwitternのアカウントでログインすると<br />友人と会話の進み具合を競えます。</p>
+                </div>
+            </div>
+		</div>
+	
+	
+    <div id="footer"><div class="container">
+        <div class="col-md-6" id="footer_img">
+		  <p><img src="./images/footer_iphone.png" alt="アプリイメージ画像" /></p>
+		  </div>
+			<div clss="col-md-6" id="footer_nav">
+			<h2>So Let’s Lean Real Japanese!</h2>
+				<ul class="list-inline">
+					<li><a href="#"><img src="./images/icon_facebook.png" alt="facebookicon" /></a></li>
+					<li><a href="#"><img src="./images/icon_twitter.png" alt="facebookicon" /></a></li>
+					<li><a href="#"><img src="./images/icon_google.png" alt="facebookicon" /></a></li>
+				</ul>
+		  </div>
+    </div></div>
+
+ -->
+
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+$(function(){
+    var timer = -1;
+ 
+ 
+    $(':input').focus(function(){
+ 
+              //フォーカスしたinputのclass、idを取得
+            var focusTarget = $('#email');
+ 
+            //Androidが2重でfocusした場合、最初のfocusをclear
+            if (timer != -1) {
+                clearInterval(timer);
+            }
+ 
+            timer = setInterval(function(){
+				
+				 //キー入力された文字数を取得
+				counter = focusTarget.val().length;
+				var text = focusTarget.val();
+			
+				if(counter >= 1 && text.indexOf('@') > -1 && text.indexOf('@@') == -1){					 
+					$('#mail_submit').removeAttr('disabled');	
+					$('p#mes').text('');	
+				}else if(counter == 0 || text.indexOf('@') == -1 || text.indexOf('@@') > -1){
+					$('#mail_submit').attr('disabled' , 'disabled');		
+				}
+        		},1000);
+    });
+ 
+ 
+    $(':input').blur(function(){
+         //フォーカスしたinputのclass、idを取得
+		var focusTarget = $('#email');
+		
+		//キー入力された文字数を取得
+		counter = focusTarget.val().length;
+		var text = focusTarget.val();
+
+		if(text.indexOf('@') == -1){
+			$('p#mes').text('There is no @ in the e-mail address');
+		}
+		
+		if(text.indexOf('@@') > -1){
+			$('p#mes').text('There are two or more @');	
+		}
+		
+		if(counter <= 1){
+			$('p#mes').text('Please enter your e-mail');
+		}
+		
+        clearInterval(timer);
+        timer = -1;
+ 
+    });
+ 
+});
+	</script>
+  </body>
+</html>

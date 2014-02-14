@@ -1,0 +1,186 @@
+body{
+	background:#bfbfbf;
+}
+a{
+		text-decoration:underline;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    width /****/:auto;  /*IE8のみ適用*/
+}
+
+#header{
+	background:#4e4e4f;
+	color:#fff;
+	text-align:right;
+	padding:5px 0;
+}
+
+#header .active{
+	text-decoration:none;
+}
+
+#header ul{
+	margin:10px 15px;
+}
+
+#header a{
+	color:#fff;
+	margin:0 5px 0 0;
+		
+}
+
+#main,
+#footer{
+	width:100%;
+	color:#fff;
+	background-image:url("../images/main_background.png");
+	background-size:cover;
+}
+
+#main h1{
+	font-size:3.8em;
+	text-align:center;
+}
+
+#main h3{
+	font-size:1.5em;
+	text-align:center;
+	margin:0 0 60px 0;
+}
+#main ul{
+	margin:0 0 60px 0;
+}
+#main ul li{
+	font-size:1.5em;
+	margin:0 0 10px 0;
+}
+
+#main ul.list-inline{
+	text-align:center;
+}
+
+#main p{
+	font-size:1.5em;
+	margin:0 0 45px 0;
+	text-align:center;
+}
+
+#main img.mainv{
+	display:block;
+	margin:0 auto;
+}
+
+#read_text{
+	background:#fff;
+	text-align:center;
+	color:#666;
+	width:100%;
+	margin:0;
+}
+
+#read_text h2{
+	margin:25px 0;
+}
+
+#read_text h3{
+	font-size:1.5em;
+	width:100%;
+}
+
+#read_text p{
+	margin:0 0 25px 0;
+}
+
+#footer container{
+	background:#a0a0a0;
+}
+
+#footer{
+	width:100%;
+	height:500px;
+	position: relative;
+}
+
+#footer p{
+	text-align:center;
+}
+
+#footer h2,
+#footer ul{
+	color:#fff;
+	text-align:center;
+}
+
+#footer h2{
+	margin-bottom:60px;
+}
+
+#footer ul li{
+	margin:0 20px 0 0;
+}
+
+/* form */
+
+form{
+	position: relative;
+}
+
+.btn-danger{
+	background:#ff3366;
+}
+
+p#mes{
+	position: absolute;
+	top:-30px;
+	left:15px;
+	color:#ff3366;
+	text-align:left;
+	font-size:1em;
+}
+
+@media screen and (min-width: 768px){
+
+	#main .col-sm-6{
+		height:860px;
+		position: relative;
+	}
+	
+	#main img.mainv{
+		position: absolute;
+		bottom: 0;
+		left:10%;
+	}
+}
+
+@media screen and (min-width: 1200px){
+
+	#main .col-sm-6{
+		height:600px;
+		position: relative;
+	}
+	
+	#main img.mainv{
+		position: absolute;
+		bottom: 0;
+		left:20%;
+	}
+	#footer #footer_nav{
+		margin:0;
+		padding:0;
+		position: absolute;
+		top: 30%;
+		left:50%;
+		margin-top: -1em;
+	}
+	
+	#footer #footer_img{
+		margin:0;
+		padding:0;
+		position: absolute;
+		top: 8%;
+		margin-top: -1em;	
+	}
+
+}
